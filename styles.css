@@ -257,7 +257,7 @@ p {
 	line-height: 1.25;
 	letter-spacing: -0.02em;
 	color: var(--text);
-	min-height: 3.9em;
+	min-height: 1.4em;
 }
 
 .dynamic-text {

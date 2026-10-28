@@ -43,11 +43,14 @@ for (const section of sections) {
 
 const skillPhrase = document.getElementById("skillPhrase");
 const skillPhrases = [
-	"polished, real-world websites",
-	"clear paths for customers",
-	"responsive layouts that feel simple",
-	"thoughtful user flows",
-	"welcoming brand sites",
+	"HTML5",
+	"CSS3 / SCSS",
+	"JavaScript",
+	"TypeScript",
+	"React",
+	"Responsive Design",
+	"Git / GitHub",
+	"Figma",
 ];
 
 if (skillPhrase) {
