@@ -7,7 +7,7 @@
 	--line: #26384a;
 	--accent: #0e7f78;
 	--accent-2: #f2a81d;
-	--accent-3: #1452a3;
+	--accent-3: #6a2f9a;
 	--shadow: 0 24px 70px -42px rgba(18, 37, 59, 0.55);
 }
 
@@ -25,7 +25,7 @@ body {
 	color: var(--text);
 	background:
 		radial-gradient(1200px 480px at 80% -10%, rgba(14, 127, 120, 0.17), transparent),
-		radial-gradient(900px 560px at 0% 20%, rgba(20, 82, 163, 0.14), transparent),
+		radial-gradient(900px 560px at 0% 20%, rgba(106, 47, 154, 0.14), transparent),
 		linear-gradient(180deg, var(--bg) 0%, var(--bg-deep) 100%);
 	line-height: 1.5;
 }
@@ -141,6 +141,21 @@ h1 {
 	max-width: 15ch;
 }
 
+.hero-title {
+	display: grid;
+	gap: 8px;
+}
+
+.hero-role {
+	margin: 0;
+	font-family: "Syne", sans-serif;
+	font-size: clamp(1.25rem, 2.8vw, 2.05rem);
+	font-weight: 700;
+	letter-spacing: -0.02em;
+	line-height: 1.1;
+	color: var(--text);
+}
+
 h2 {
 	font-size: clamp(1.6rem, 3.2vw, 2.55rem);
 	max-width: 20ch;
@@ -154,7 +169,7 @@ p {
 
 .hero {
 	background:
-		linear-gradient(160deg, rgba(20, 82, 163, 0.08), transparent 35%),
+		linear-gradient(160deg, rgba(106, 47, 154, 0.08), transparent 35%),
 		linear-gradient(120deg, rgba(14, 127, 120, 0.09), transparent 40%),
 		color-mix(in oklab, var(--paper) 90%, white);
 	min-height: min(82vh, 760px);
@@ -191,15 +206,15 @@ p {
 }
 
 .btn-primary {
-	background: linear-gradient(160deg, var(--accent-2), #de8e12);
-	color: #25190a;
-	box-shadow: 0 10px 20px -13px rgba(196, 122, 20, 0.68);
+	background: linear-gradient(160deg, #14988f, var(--accent));
+	color: #f4fffd;
+	box-shadow: 0 10px 20px -13px rgba(14, 127, 120, 0.7);
 }
 
 .btn-secondary {
-	background: linear-gradient(165deg, #12556f, #0e4459);
-	color: #eef7fa;
-	box-shadow: 0 10px 20px -13px rgba(9, 66, 87, 0.72);
+	background: linear-gradient(165deg, #6a2f9a, #4a1d72);
+	color: #f7f2fb;
+	box-shadow: 0 10px 20px -13px rgba(74, 29, 114, 0.72);
 }
 
 .hero-meta {
@@ -379,7 +394,7 @@ p {
 .contact {
 	background:
 		linear-gradient(145deg, rgba(242, 168, 29, 0.17), transparent 36%),
-		linear-gradient(165deg, rgba(20, 82, 163, 0.11), transparent 45%),
+		linear-gradient(165deg, rgba(106, 47, 154, 0.11), transparent 45%),
 		color-mix(in oklab, var(--paper) 90%, white);
 	display: grid;
 	gap: 14px;
